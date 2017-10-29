@@ -120,7 +120,7 @@ module.exports = _react2.default.createClass({
   propTypes: {
     horizontal: _react2.default.PropTypes.bool,
     children: _react2.default.PropTypes.node.isRequired,
-    style: _reactNative.View.propTypes.style,
+    style: _reactNative.ViewPropTypes.style,
     pagingEnabled: _react2.default.PropTypes.bool,
     showsHorizontalScrollIndicator: _react2.default.PropTypes.bool,
     showsVerticalScrollIndicator: _react2.default.PropTypes.bool,
